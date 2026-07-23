@@ -16,11 +16,17 @@ MODEL_PATH = os.path.join(
     "sentiment_model.pkl"
 )
 
+VECTORIZER_PATH = os.path.join(
+    MODEL_DIR,
+    "sentiment_vectorizer.pkl"
+)
+
 # ======================================================
-# Load Model
+# Load Model & Vectorizer
 # ======================================================
 
 model = joblib.load(MODEL_PATH)
+vectorizer = joblib.load(VECTORIZER_PATH)
 
 # ======================================================
 # Prediction Function
@@ -31,6 +37,10 @@ def predict_sentiment(text):
     if text is None or str(text).strip() == "":
         return "Please enter some text."
 
-    prediction = model.predict([text])[0]
+    # Convert text into TF-IDF features
+    text_vector = vectorizer.transform([text])
+
+    # Predict sentiment
+    prediction = model.predict(text_vector)[0]
 
     return prediction

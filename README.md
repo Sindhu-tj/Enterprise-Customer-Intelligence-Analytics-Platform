@@ -34,12 +34,11 @@ Enterprise Customer Intelligence & Analytics Platform/
 
 ## Installation
 
-```bash
+bash
 git clone <repository_url>
 cd Enterprise Customer Intelligence & Analytics Platform
 pip install -r requirements.txt
 streamlit run app.py
-```
 
 ## Model Used
 - Logistic Regression

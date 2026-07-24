@@ -52,3 +52,7 @@ streamlit run app.py
 - Customer Segmentation
 - Recommendation System
 - Deployment
+
+## GitHub Achievement Practice
+
+This update was created to practice the GitHub Pull Request workflow.

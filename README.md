@@ -41,7 +41,6 @@ Customer churn directly impacts business growth and revenue. This project levera
 
 ## 📂 Project Structure
 
-```text
 Enterprise-Customer-Intelligence-Analytics-Platform/
 │
 ├── app/
@@ -61,7 +60,6 @@ Enterprise-Customer-Intelligence-Analytics-Platform/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-```
 
 ---
 

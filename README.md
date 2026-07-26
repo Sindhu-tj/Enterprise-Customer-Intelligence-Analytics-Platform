@@ -65,7 +65,6 @@ Enterprise-Customer-Intelligence-Analytics-Platform/
 
 ## ⚙️ Installation
 
-```bash
 git clone https://github.com/Sindhu-tj/Enterprise-Customer-Intelligence-Analytics-Platform.git
 
 cd Enterprise-Customer-Intelligence-Analytics-Platform
@@ -73,7 +72,6 @@ cd Enterprise-Customer-Intelligence-Analytics-Platform
 pip install -r requirements.txt
 
 streamlit run app/app.py
-```
 
 ---
 

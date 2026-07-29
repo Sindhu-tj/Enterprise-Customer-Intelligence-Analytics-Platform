@@ -24,13 +24,7 @@ env/
 .ipynb_checkpoints/
 
 # ==========================
-# Data
-# ==========================
-data/raw/
-data/processed/
-
-# ==========================
-# Models
+# Models (Ignore only large models)
 # ==========================
 models/recommendation_model.pkl
 models/regression_model.pkl
@@ -39,4 +33,4 @@ models/regression_model.pkl
 # OS Files
 # ==========================
 .DS_Store
-Thumbs.db
+Thumbs.dbgit add .gitignore
